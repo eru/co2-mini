@@ -5,7 +5,7 @@ def main() -> None:
     mon = co2.CO2monitor(bypass_decrypt=True)
     data = mon.read_data()
     # 1: co2, 2: temp
-    print(data[1], data[2])
+    print(data[1], round(data[2], 1))
 
 
 if __name__ == "__main__":
