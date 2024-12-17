@@ -6,7 +6,7 @@ authors = ["Kazuki Hashimoto <eru.tndl@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-hidapi = "^0.14.0"
+hidapi = "0.14.0.post4"
 CO2meter = "^0.2.6"
 
 [tool.poetry.group.dev.dependencies]
