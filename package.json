@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "postinstall": "poetry install",
+    "postinstall": "uv sync",
     "lint": "run-s lint:fix-all lint:lint-all",
     "lint:fix-all": "npm run lint:fix co2_mini",
     "lint:fix": "./scripts/format.sh",

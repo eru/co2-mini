@@ -9,7 +9,7 @@ muninと組み合わせることで、画像のような監視を行うことが
 
 ## Requirements
 
-- poetry
+- uv
 - yarn
 
 ## Install
@@ -21,9 +21,9 @@ yarn install
 ## Run
 
 ```sh
-poetry run sensor
+uv run sensor
 ```
 
 ## Munin
 
-Copy `munin/*` to `/etc/munin/plugins` and `alias co2-mini='cd PATH_TO_CO2_MINI && poetry run sensor'`
+Copy `munin/*` to `/etc/munin/plugins` and `alias co2-mini='cd PATH_TO_CO2_MINI && uv run sensor'`
